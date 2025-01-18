@@ -1,65 +1,46 @@
 package ir.anishehparsi.ikps
 
 data class RpoData(
-    val name:String,
-    val description:String,
-    val date:String,
-    val image:Int
-)
+    val name: String,
+    val image: Int,
+
+    )
 
 val RpoListData = listOf(
     RpoData(
-        "Ali Motamedkia",
-        "online",
-        "online",
-        R.drawable.ali
+        "Saturday",
+        R.drawable.sat
+
     ),
     RpoData(
-        "Amin Sakha",
-        "Master",
-        "online",
-        R.drawable.amin
+        "Sunday",
+        R.drawable.sun
+
     ),
     RpoData(
-        "MFT Vanak",
-        "Owner",
-        "online",
-        R.drawable.mft
+        "Monday",
+        R.drawable.mon
+
     ),
     RpoData(
-        "Hossein",
-        "User & student",
-        "at 18:28",
-        R.drawable.hosein
+        "Tuesday",
+        R.drawable.tue
+
     ),
     RpoData(
-        "Sam Hatami",
-        "User & student",
-        "2025/01/05",
-        R.drawable.sam
+        "Wednesday",
+        R.drawable.wed
+
     ),
     RpoData(
-        "Arshia",
-        "User & student",
-        "at 22:10",
-        R.drawable.arshia
+        "Thursday",
+        R.drawable.thu
+
     ),
     RpoData(
-        "Mahdiar",
-        "User & student",
-        "at 22:10",
-        R.drawable.ic_launcher_foreground
+        "Friday",
+        R.drawable.fri
+
     ),
-    RpoData(
-        "Shayan",
-        "User & student",
-        "at 22:10",
-        R.drawable.ic_launcher_foreground
-    ),
-    RpoData(
-        "(a)",
-        "User & student",
-        "at 22:10",
-        R.drawable.ic_launcher_foreground
+
     )
-)

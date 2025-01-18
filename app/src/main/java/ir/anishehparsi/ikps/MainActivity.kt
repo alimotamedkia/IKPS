@@ -19,6 +19,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             IKPSTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+
                     MessageList(
                         modifier = Modifier.padding(innerPadding)
                     )
