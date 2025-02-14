@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">IKPS</string>
+    <string name="app_name">IKPS+</string>
+    <string name="enter">ورود</string>
+    <string name="login_guid">برای ورود به برنامه، مشخصات ارائه شده از اداره سیستم‌های تولید ایران خودرو معتبر است</string>
 </resources>
